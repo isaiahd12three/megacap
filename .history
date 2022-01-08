@@ -1,0 +1,155 @@
+
+# 2021-12-24 14:25:30.223375
++user = accounts.load('test_account')
+
+# 2021-12-24 14:29:15.593927
++dir(user)
+
+# 2021-12-24 14:29:43.413807
++user = accounts.load('test_account')
+
+# 2021-12-24 14:33:52.901275
++dir(user)
+
+# 2021-12-24 14:34:53.343233
++user = accounts.load(test_account)
+
+# 2021-12-24 14:35:03.455915
++user = accounts.load('test_account')
+
+# 2021-12-24 14:38:48.891673
++exit()
+
+# 2021-12-24 14:40:20.536015
++user = accounts.load('test')
+
+# 2021-12-24 14:40:31.512324
++dir(test)
+
+# 2021-12-24 14:40:37.576537
++dir(user)
+
+# 2021-12-24 14:42:19.665004
++someone_else = network.account.PublicKeyAccount('0xB31f66AA3C1e7853
++63F0875A1B74E27b85FD66c7')
+
+# 2021-12-24 14:42:41.315275
++someone_else = ('network.account.PublicKeyAccount('0xB31f66AA3C1e7853
++63F0875A1B74E27b85FD66c7')
+
+# 2021-12-24 14:42:50.699150
++someone_else = network.account.PublicKeyAccount('0xB31f66AA3C1e7853
++63F0875A1B74E27b85FD66c7')
+
+# 2021-12-24 14:43:16.414738
++someone_else = network.account.PublicKeyAccount('0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7')
+
+# 2021-12-24 14:43:26.435039
++someone_else.balance()
+
+# 2021-12-24 14:50:04.234761
++exit()
+
+# 2021-12-24 14:50:40.714249
++user = accounts.load('test')
+
+# 2021-12-24 14:51:27.727953
++wavax_contract = Contract.from_explorer('0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7')
+
+# 2021-12-24 14:52:07.041726
++dir(wavax_contract)
+
+# 2021-12-24 15:33:43.214846
++user = accounts.load('test')
+
+# 2021-12-24 15:34:06.028584
++router_contract = Contract.from_explorer('0x60aE616a2155Ee3d9A68541Ba4544862310933d4')
+
+# 2021-12-24 15:35:31.829651
++usdc_contract = Contract.from_(0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e')
+
+# 2021-12-24 15:35:49.772900
++usdc_contract = Contract.from_explorer('0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e')
+
+# 2021-12-24 15:36:14.167607
++usdt_contract = Contract.from_explorer
+
+# 2021-12-24 15:36:26.373060
++usdt_contract = Contract.from_explorer('0xc7198437980c041c805a1edcba50c1ce5db95118')
+
+# 2021-12-24 15:36:57.401264
++wavax_contract = Contract.from_explorer('0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7')
+
+# 2021-12-24 15:43:30.703751
++router_contract.getAmountsOut(1*(10**usdt_contract.decimals()), [usdt_contract.ad
++dress, wavax_contract.address, usdc_contract.address ])[-1]/(10**usdc_contract.decimals())
+
+# 2021-12-24 15:43:41.188871
++router_contract.getAmountsOut(1*(10**usdt_contract.decimals()), [usdt_contract.address, wavax_contract.address, usdc_contract.address ])[-1]/(10**usdc_contract.decimals())
+
+# 2021-12-24 15:46:10.265712
++exit()
+
+# 2021-12-24 23:55:42.500540
++user = accounts.load('megacap')
+
+# 2021-12-24 23:56:01.712321
++user.balance()/(10**18)
+
+# 2021-12-24 23:57:00.602658
++router = Contract.from_explorer('0x60aE616a2155Ee3d9A68541Ba4544862310933d4')
+
+# 2021-12-24 23:57:17.215629
++mim = Contract.from_explorer('0x130966628846bfd36ff31a822705796e8cb8c18d')
+
+# 2021-12-24 23:57:30.802566
++dai = Contract.from_explorer('0xd586e7f844cea2f87f50152665bcbc2c279d8d70')
+
+# 2021-12-24 23:57:44.110137
++mim.balanceOf(user.address)
+
+# 2021-12-24 23:57:51.753141
++dai.BalanceOf(user.address_
+
+# 2021-12-24 23:57:56.336244
++dai.BalanceOf(user.address)
+
+# 2021-12-24 23:58:25.690345
++dai.balanceOf(user.address)
+
+# 2021-12-24 23:58:36.423181
++mim.allowance(user.address, router.address)
+
+# 2021-12-24 23:58:47.068043
++dai.allowance(user.address, router.address)
+
+# 2021-12-24 23:59:54.345976
++import time
+
+# 2021-12-25 00:00:08.892248
++wavax = Contract.from_explorer('0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7')
+
+# 2021-12-25 00:05:58.059752
++router.swapAVAXForExactTokens(5*(10**mim.decimals()), [wavax.address, mim.address], user.address, 1000*int(time.time()+30), {'from':user.address, 'value':0.05*10**18})
+
+# 2021-12-25 00:06:31.962637
++mim.balanceOf(user.address)
+
+# 2021-12-25 00:06:40.286898
++mim.balanceOf(user.address)/(10**mim.decimals())
+
+# 2021-12-25 00:07:31.895685
++mim.approve(router.address, 2.5*10**mim.decimals(), {'from':user.address})
+
+# 2021-12-25 00:07:53.898378
++mim.allowance(user.address, router.address)
+
+# 2021-12-25 00:08:03.433933
++mim.allowance(user.address, router.address) / (10**mim.decimals())
+
+# 2021-12-25 00:09:38.727918
++router.swapExactTokensForTokens(2.5*10**mim.decimals(), 0.95*2.5*10**dai.decimals(), [mim.address, dai.address
++ ], user.address, 1000*int(time.time()+30), {'from':user.address})
+
+# 2021-12-25 00:17:03.844795
++exit()
