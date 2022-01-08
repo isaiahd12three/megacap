@@ -1,0 +1,11 @@
+Collecting twilio
+  Using cached twilio-7.4.0-py2.py3-none-any.whl (1.3 MB)
+Requirement already satisfied: PyJWT<3.0.0,>=2.0.0 in c:\users\kisai\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from twilio) (2.3.0)
+Requirement already satisfied: requests>=2.0.0 in c:\users\kisai\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from twilio) (2.26.0)
+Requirement already satisfied: pytz in c:\users\kisai\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from twilio) (2021.3)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\kisai\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from requests>=2.0.0->twilio) (3.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\kisai\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from requests>=2.0.0->twilio) (2021.10.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\users\kisai\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from requests>=2.0.0->twilio) (2.0.9)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\kisai\appdata\local\packages\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\localcache\local-packages\python39\site-packages (from requests>=2.0.0->twilio) (1.26.7)
+Installing collected packages: twilio
+Successfully installed twilio-7.4.0
