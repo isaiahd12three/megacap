@@ -4,6 +4,7 @@ import datetime
 import requests
 import os
 from brownie import *
+from pynput.keyboard import Key, Controller
 from twilio.rest import Client
 client = Client("ACd58c2ff9e3c0739d8b41aa2021027b23", "24fa93d06bfeaedda72b099eac0706b7")
 
@@ -179,6 +180,9 @@ network.max_fee('200 gwei')
 
 
 # Load the user account
+keyboard = Controller()
+keyboard.press(Key.enter)
+keyboard.release(Key.enter)
 user = accounts.load('megacap')
 
 print("Loading Contracts:")
