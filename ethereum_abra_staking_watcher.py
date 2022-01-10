@@ -19,6 +19,11 @@ def main():
 
     try:
         network.connect("mainnet")
+        # Send a notification to yourself and clients
+        numbers_to_message = ["+16198629563"]
+        for number in numbers_to_message:
+            client.messages.create(to=number, from_="+13165319116",
+            body="Your sSPELL/SPELL observatory bot is online")
     except:
         sys.exit(
             "Could not connect to Ethereum! Verify that brownie lists the Ethereum (Infura) Mainnet using 'brownie networks list'"
