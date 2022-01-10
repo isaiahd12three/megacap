@@ -185,6 +185,12 @@ keyboard.press(Key.enter)
 keyboard.release(Key.enter)
 user = accounts.load('megacap')
 
+# Send a text to yourself knowing you're online
+numbers_to_message = ["+16198629563"]
+for number in numbers_to_message:
+    client.messages.create(to=number, from_="+13165319116",
+    body="Your sSPELL/SPELL execution bot is online")
+
 print("Loading Contracts:")
 # Load the router contract
 router_contract = contract_load(TRADERJOE_ROUTER_CONTRACT_ADDRESS, "TraderJoe AVAX Router")
